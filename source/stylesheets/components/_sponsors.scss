@@ -60,7 +60,7 @@
       display: block;
       height: 3em;
       margin-bottom: 1.2em;
-      opacity: 0.2;
+      opacity: 0.7;
     }
 
   .grid-item h1 {
@@ -70,7 +70,7 @@
     }
 
   .grid-item p {
-      color: transparentize($grid-item-color, 0.4);
+      color: transparentize($grid-item-color, 0.2);
       
       @include media($medium-screen) {
         max-width: 70%;
