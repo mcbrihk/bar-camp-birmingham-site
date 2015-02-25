@@ -1,0 +1,32 @@
+header{
+  @include outer-container;
+  h1{
+    background: image-url('logo.svg') no-repeat center center;
+    min-height: 100px;
+    @include span-columns(12);  
+    @include media($large-screen-up) {
+      @include span-columns(6);
+      margin-top: 1em;
+    }
+    span{
+      display: none;
+    }
+  }
+  nav{
+    text-align: center;
+    @include span-columns(12);  
+    @include media($large-screen-up) {
+      text-align: right;
+      @include span-columns(6);
+      margin-top: 5.5em;
+    }
+    ul{
+       li{
+         display: inline-block;
+         a{
+           padding: .5em 1em;
+         }
+       }
+    }
+  }
+}

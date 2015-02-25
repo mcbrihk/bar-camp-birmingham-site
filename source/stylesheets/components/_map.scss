@@ -1,0 +1,24 @@
+#map {
+  height: 282px;
+  width: 100%;
+}
+
+#map img { 
+  max-width: none; 
+}
+
+#map .content {
+  padding: 0 0.5em 1em 0.5em;
+}
+
+#map .firstHeading {
+  font-size: 1em;
+  line-height: 1em;
+  font-weight: bold;
+  margin: 0;
+}
+
+#map #bodyContent p {
+  font-size: 1em;
+  margin: 0;
+}

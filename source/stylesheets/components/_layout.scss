@@ -1,0 +1,23 @@
+#main {
+  background-color: #fff;
+  padding: 0 1em 1em;
+  section {
+    @include outer-container;
+    .full-container {
+      @include span-columns(12);
+    }
+    .thirds-container {
+      @include span-columns(4);
+    }
+  }
+}
+h2{
+  border-bottom: 1px solid lighten($base-font-color, 70%);
+  margin-top: .5em;
+  margin-bottom: .25em;
+  padding-bottom: .25em;
+  @include media($large-screen-up) {
+    margin-top: 1em;
+    margin-bottom: .5em;
+  }
+}
